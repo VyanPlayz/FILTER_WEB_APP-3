@@ -1,0 +1,30 @@
+.heading{
+    font-size: 40px;
+    width: 100%;
+    top: 0;
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    color: blue;
+    letter-spacing: 3px;
+}
+
+#button1{
+    font-family: 'Lobster', cursive;
+}
+
+.btn-primary:hover{
+    background-color: deepskyblue;
+    font-size:25px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes example{
+    from{box-shadow: 4px 4px 50px red;}
+    to{box-shadow: 4px 4px 50px yellow;}
+}
